@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.port);
+        setContentView(R.layout.layout_port);
         Button button_CE=findViewById(R.id.btn_CE);
         Button button_C=findViewById(R.id.btn_C);
         Button button_0=findViewById(R.id.btn_0);
