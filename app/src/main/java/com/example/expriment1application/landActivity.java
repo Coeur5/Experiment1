@@ -1,23 +1,18 @@
 package com.example.expriment1application;
 
-import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.Manifest;
-import android.content.DialogInterface;
 import android.icu.math.BigDecimal;
 import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
-import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.w3c.dom.Text;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class landActivity extends AppCompatActivity implements View.OnClickListener {
     private String operator="";//运算符号
     private String firstnum="";//第一个数
     private String secondnum="";//下一个数
@@ -25,11 +20,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private String showText="";
     private TextView textView;
 
-
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.layout_port);
+        setContentView(R.layout.layout_land);
         Button button_CE=findViewById(R.id.btn_CE);
         Button button_C=findViewById(R.id.btn_C);
         Button button_0=findViewById(R.id.btn_0);
@@ -44,11 +38,24 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Button button_9=findViewById(R.id.btn_9);
         Button button_equal=findViewById(R.id.btn_equal);
         Button button_sqrt=findViewById(R.id.btn_sqrt);
+        Button button_square=findViewById(R.id.btn_square);
         Button button_add=findViewById(R.id.btn_add);
         Button button_divide=findViewById(R.id.btn_divide);
         Button button_multiple=findViewById(R.id.btn_multiple);
         Button button_point=findViewById(R.id.btn_point);
         Button button_reduce=findViewById(R.id.btn_reduce);
+        Button button_deg=findViewById(R.id.btn_DEG);
+        Button button_drg=findViewById(R.id.btn_DRG);
+        Button button_sin=findViewById(R.id.btn_sin);
+        Button button_cos=findViewById(R.id.btn_cos);
+        Button button_tan=findViewById(R.id.btn_tan);
+        Button button_factorial=findViewById(R.id.btn_factorial);
+        Button button_left=findViewById(R.id.btn_left);
+        Button button_right=findViewById(R.id.btn_right);
+        Button button_log=findViewById(R.id.btn_log);
+        Button button_ln=findViewById(R.id.btn_ln);
+        Button button_D=findViewById(R.id.btn_D);
+        Button button_B=findViewById(R.id.btn_B);
 
         textView=findViewById(R.id.tv_shownumber);
 
@@ -71,11 +78,23 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         button_point.setOnClickListener(this);
         button_sqrt.setOnClickListener(this);
         button_divide.setOnClickListener(this);
+        button_deg.setOnClickListener(this);
+        button_drg.setOnClickListener(this);
+        button_sin.setOnClickListener(this);
+        button_cos.setOnClickListener(this);
+        button_tan.setOnClickListener(this);
+        button_square.setOnClickListener(this);
+        button_log.setOnClickListener(this);
+        button_ln.setOnClickListener(this);
+        button_D.setOnClickListener(this);
+        button_B.setOnClickListener(this);
+        button_left.setOnClickListener(this);
+        button_right.setOnClickListener(this);
+        button_factorial.setOnClickListener(this);
 
         textView.setMovementMethod(new ScrollingMovementMethod());
         textView.setGravity(Gravity.RIGHT|Gravity.BOTTOM);
     }
-
     private boolean calculate(){
         BigDecimal num1=new BigDecimal(this.firstnum);
         BigDecimal num2=new BigDecimal(this.secondnum);
@@ -105,6 +124,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         secondnum="";
         result="";
     }
+    private int factorial(int num){
+        if(num<=1){
+            return 1;
+        }else{
+            return num*factorial(num-1);
+        }
+    }
+
 
     @Override
     public void onClick(View view) {
