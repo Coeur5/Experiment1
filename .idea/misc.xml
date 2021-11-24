@@ -3,17 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Android Workplace/Expriment1Application/app/src/main/res/drawable/selector.xml" value="0.1" />
-        <entry key="..\:/Android Workplace/Expriment1Application/app/src/main/res/drawable/shape.xml" value="0.21574074074074073" />
-        <entry key="..\:/Android Workplace/Expriment1Application/app/src/main/res/drawable/shapeOn.xml" value="0.27291666666666664" />
-        <entry key="..\:/Android Workplace/Expriment1Application/app/src/main/res/drawable/shapedown.xml" value="0.1" />
-        <entry key="..\:/Android Workplace/Expriment1Application/app/src/main/res/drawable/shapeon.xml" value="0.1" />
-        <entry key="..\:/Android Workplace/Expriment1Application/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Android Workplace/Expriment1Application/app/src/main/res/layout/land.xml" value="0.4" />
-        <entry key="..\:/Android Workplace/Expriment1Application/app/src/main/res/layout/layout_land.xml" value="0.6" />
-        <entry key="..\:/Android Workplace/Expriment1Application/app/src/main/res/layout/layout_port.xml" value="0.2" />
-        <entry key="..\:/Android Workplace/Expriment1Application/app/src/main/res/layout/linear.xml" value="0.264" />
-        <entry key="..\:/Android Workplace/Expriment1Application/app/src/main/res/layout/port.xml" value="0.23802083333333332" />
+        <entry key="..\:/Android Workplace/Calculator/app/src/main/res/drawable/bar.xml" value="0.26979166666666665" />
+        <entry key="..\:/Android Workplace/Calculator/app/src/main/res/drawable/btn_normal.xml" value="0.1" />
+        <entry key="..\:/Android Workplace/Calculator/app/src/main/res/drawable/btn_pressed.xml" value="0.1" />
+        <entry key="..\:/Android Workplace/Calculator/app/src/main/res/drawable/buttonstyle.xml" value="0.26979166666666665" />
+        <entry key="..\:/Android Workplace/Calculator/app/src/main/res/drawable/equals_button_style.xml" value="0.26979166666666665" />
+        <entry key="..\:/Android Workplace/Calculator/app/src/main/res/drawable/func_btn_style.xml" value="0.26979166666666665" />
+        <entry key="..\:/Android Workplace/Calculator/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Android Workplace/Calculator/app/src/main/res/layout/activity_land.xml" value="0.152" />
+        <entry key="..\:/Android Workplace/Calculator/app/src/main/res/layout/activity_main.xml" value="0.19708029197080293" />
+        <entry key="..\:/Android Workplace/Calculator/app/src/main/res/layout/activity_port.xml" value="0.4840954274353877" />
+        <entry key="..\:/Android Workplace/Calculator/app/src/main/res/menu/main.xml" value="0.1" />
       </map>
     </option>
   </component>
