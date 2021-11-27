@@ -3,17 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Android Workplace/Calculator/app/src/main/res/drawable/bar.xml" value="0.26979166666666665" />
-        <entry key="..\:/Android Workplace/Calculator/app/src/main/res/drawable/btn_normal.xml" value="0.1" />
-        <entry key="..\:/Android Workplace/Calculator/app/src/main/res/drawable/btn_pressed.xml" value="0.1" />
-        <entry key="..\:/Android Workplace/Calculator/app/src/main/res/drawable/buttonstyle.xml" value="0.26979166666666665" />
-        <entry key="..\:/Android Workplace/Calculator/app/src/main/res/drawable/equals_button_style.xml" value="0.26979166666666665" />
-        <entry key="..\:/Android Workplace/Calculator/app/src/main/res/drawable/func_btn_style.xml" value="0.26979166666666665" />
-        <entry key="..\:/Android Workplace/Calculator/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
-        <entry key="..\:/Android Workplace/Calculator/app/src/main/res/layout/activity_land.xml" value="0.152" />
-        <entry key="..\:/Android Workplace/Calculator/app/src/main/res/layout/activity_main.xml" value="0.19708029197080293" />
-        <entry key="..\:/Android Workplace/Calculator/app/src/main/res/layout/activity_port.xml" value="0.4840954274353877" />
-        <entry key="..\:/Android Workplace/Calculator/app/src/main/res/menu/main.xml" value="0.1" />
+        <entry key="..\:/Android Workplace/Experiment1Application/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Android Workplace/Experiment1Application/app/src/main/res/drawable/button_style.xml" value="0.22136752136752136" />
+        <entry key="..\:/Android Workplace/Experiment1Application/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Android Workplace/Experiment1Application/app/src/main/res/drawable/naomal.xml" value="0.1" />
+        <entry key="..\:/Android Workplace/Experiment1Application/app/src/main/res/drawable/press.xml" value="0.1" />
+        <entry key="..\:/Android Workplace/Experiment1Application/app/src/main/res/layout-large/activity_main.xml" value="0.6" />
+        <entry key="..\:/Android Workplace/Experiment1Application/app/src/main/res/layout-normal/activity_main.xml" value="0.1" />
+        <entry key="..\:/Android Workplace/Experiment1Application/app/src/main/res/layout-normal/layout_main.xml" value="0.1" />
+        <entry key="..\:/Android Workplace/Experiment1Application/app/src/main/res/layout-normal/layout_normal.xml" value="0.11388888888888889" />
+        <entry key="..\:/Android Workplace/Experiment1Application/app/src/main/res/layout-small/activity_main.xml" value="0.1" />
+        <entry key="..\:/Android Workplace/Experiment1Application/app/src/main/res/layout-xlarge/activity_main.xml" value="0.1" />
+        <entry key="..\:/Android Workplace/Experiment1Application/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/Android Workplace/Experiment1Application/app/src/main/res/layout/layout_main.xml" value="0.12857142857142856" />
+        <entry key="..\:/Android Workplace/Experiment1Application/app/src/main/res/menu/main.xml" value="0.4" />
+        <entry key="..\:/Android Workplace/Experiment1Application/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
       </map>
     </option>
   </component>
