@@ -23,4 +23,10 @@
     <string name="equal">=</string>
     <string name="action_help">help</string>
     <string name="action_exit">exit</string>
+    <string name="action_1">十六进制转为二进制</string>
+    <string name="action_2">二进制转为十六进制</string>
+    <string name="action_3">任意进制转为十进制</string>
+    <string name="action_4">十六进制转为二进制</string>
+    <string name="action_back">返回计算器</string>
+    <string name="action_binary">进制转换</string>
 </resources>

@@ -12,9 +12,10 @@
         <entry key="..\:/Android Workplace/Experiment1Application/app/src/main/res/layout-normal/activity_main.xml" value="0.1" />
         <entry key="..\:/Android Workplace/Experiment1Application/app/src/main/res/layout-normal/layout_main.xml" value="0.1" />
         <entry key="..\:/Android Workplace/Experiment1Application/app/src/main/res/layout-normal/layout_normal.xml" value="0.11388888888888889" />
-        <entry key="..\:/Android Workplace/Experiment1Application/app/src/main/res/layout-small/activity_main.xml" value="0.1" />
+        <entry key="..\:/Android Workplace/Experiment1Application/app/src/main/res/layout-small/activity_main.xml" value="1.2" />
         <entry key="..\:/Android Workplace/Experiment1Application/app/src/main/res/layout-xlarge/activity_main.xml" value="0.1" />
-        <entry key="..\:/Android Workplace/Experiment1Application/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/Android Workplace/Experiment1Application/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Android Workplace/Experiment1Application/app/src/main/res/layout/activity_option.xml" value="0.264" />
         <entry key="..\:/Android Workplace/Experiment1Application/app/src/main/res/layout/layout_main.xml" value="0.12857142857142856" />
         <entry key="..\:/Android Workplace/Experiment1Application/app/src/main/res/menu/main.xml" value="0.4" />
         <entry key="..\:/Android Workplace/Experiment1Application/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
@@ -26,5 +27,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="SuppressABINotification">
+    <option name="modulesWithSuppressedNotConfigured">
+      <set>
+        <option value="Experiment1Application.app" />
+      </set>
+    </option>
   </component>
 </project>

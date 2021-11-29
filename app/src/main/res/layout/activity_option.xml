@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="输入需要转换的数字"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="73dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/result"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <Button
+        android:id="@+id/two_16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="二进制转为十六进制"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="342dp" />
+
+    <Button
+        android:id="@+id/sixteen_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="十六进制转为二进制"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="442dp" />
+
+    <Button
+        android:id="@+id/ten_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="十进制转为二进制"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="542dp" />
+
+    <Button
+        android:id="@+id/ten_16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="十进制转为十六进制"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="642dp" />
+
+</LinearLayout>

@@ -3,6 +3,7 @@ package com.example.experiment1application;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
@@ -66,6 +67,8 @@ public class MainActivity extends AppCompatActivity {
                 android.os.Process.killProcess(android.os.Process.myPid());//获取pid
                 System.exit(0);
                 break;
+            case R.id.action_binary:
+                item.setIntent(new Intent(MainActivity.this,OptionActivity.class));
             default:
                 break;
         }
@@ -197,7 +200,7 @@ public class MainActivity extends AppCompatActivity {
                     _drg.setText("   DEG");
                 }
                 //如果输入时退格键，并且是在按=之前
-            } else if(command.compareTo("Bksp") == 0 && equals_flag) {
+            } else if(command.compareTo("◀") == 0 && equals_flag) {
                 //一次删除3个字符
                 if(TTO(str) == 3) {
                     if(str.length() > 3)
@@ -338,8 +341,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
     /*
-     * 检测函数，返回值为3、2、1  表示应当一次删除几个？  Three+Two+One = TTO
-     * 为Bksp按钮的删除方式提供依据
+     *
      * 返回3，表示str尾部为sin、cos、tan、log中的一个，应当一次删除3个
      * 返回2，表示str尾部为ln、n!中的一个，应当一次删除2个
      * 返回1，表示为除返回3、2外的所有情况，只需删除一个（包含非法字符时要另外考虑：应清屏）
@@ -558,7 +560,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /*
-     * 反馈Tip信息，加强人机交互，与TipChecker()配合使用
+     * 反馈Tip信息，
      */
     private void TipShow(int bracket , int tipcode1 , int tipcode2 ,
                          String tipcommand1 , String tipcommand2) {
@@ -666,12 +668,12 @@ public class MainActivity extends AppCompatActivity {
         tip.setText(tipmessage);
     }
     /*
-     * 整个计算核心，只要将表达式的整个字符串传入calc().process()就可以实行计算了
+     * 整个计算核心，将表达式的字符串传入calc().process()就可以进行计算
      * 算法包括以下几部分：
-     * 1、计算部分           process(String str)  当然，这是建立在查错无错误的情况下
-     * 2、数据格式化      FP(double n)         使数据有相当的精确度
+     * 1、计算部分           process(String str)
+     * 2、数据格式化      FP(double n)
      * 3、阶乘算法           N(double n)          计算n!，将结果返回
-     * 4、错误提示          showError(int code ,String str)  将错误返回
+     * 4、错误提示          showError(int code ,String str) 返回错误
      */
     public class calc {
         public calc(){
@@ -1002,13 +1004,11 @@ public class MainActivity extends AppCompatActivity {
         /*
          * FP = floating point 控制小数位数，达到精度
          * 否则会出现 0.6-0.2=0.39999999999999997的情况，用FP即可解决，使得数为0.4
-         * 本格式精度为15位
+         * 精度为15位
          */
         public double FP(double n) {
-            //NumberFormat format=NumberFormat.getInstance();  //创建一个格式化类f
-            //format.setMaximumFractionDigits(18);    //设置小数位的格式
-            DecimalFormat format = new DecimalFormat("0.#############");
-            return Double.parseDouble(format.format(n));
+            DecimalFormat format = new DecimalFormat("0.#############");//创建一个格式化类f
+            return Double.parseDouble(format.format(n));//设置小数位的格式
         }
 
         /*
@@ -1042,5 +1042,11 @@ public class MainActivity extends AppCompatActivity {
             input.setText("\""+str+"\""+": "+message);
             tip.setText(message+"\n"+"计算完毕，要继续请按归零键 C");
         }
+
+
+
+
+
+
     }
 }
